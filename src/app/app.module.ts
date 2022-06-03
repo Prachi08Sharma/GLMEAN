@@ -11,6 +11,8 @@ import { OrderFormComponent } from './pages/order-form/order-form.component';
 import { GalleryComponent } from './pages/gallery/gallery.component';
 import { ContactUsComponent } from './share/contact-us/contact-us.component';
 import { RegisterComponent } from './share/register/register.component';
+import { HttpClientModule} from '@angular/common/http';
+import { FormsModule } from '@angular/forms';
 
 @NgModule({
   declarations: [
@@ -26,7 +28,10 @@ import { RegisterComponent } from './share/register/register.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
+
   ],
   providers: [],
   bootstrap: [AppComponent]
