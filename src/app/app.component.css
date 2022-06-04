@@ -14,3 +14,10 @@
 .carousel-control-prev-icon{
     position: relative;
 }
+.carousel-control-next-icon{
+   position: relative;
+
+}
+.carousel-indicators{
+    bottom: 50%;
+}
